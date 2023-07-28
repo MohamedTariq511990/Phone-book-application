@@ -1,0 +1,43 @@
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.container {
+    height: 550px; /* set the height to your desired value */
+    overflow: auto;
+  }
+  
+  .scroll-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .scroll-table th,
+  .scroll-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .scroll-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .button {
+    background-color: rgb(20, 240, 244);
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-container input {
+    width: 300px;
+    height: 30px;
+  }
+  
+  .search-container button {
+    width: 100px;
+    height: 36px;
+  }
