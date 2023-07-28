@@ -1,0 +1,78 @@
+/* Additional CSS for Navbar component */
+.border {
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 32px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  /* Removed overflow-x property to remove the scroll button */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Additional styles for the sub-navigation */
+.sub-nav-links {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 4px;
+  min-width: 160px;
+}
+
+.nav-links li:hover .sub-nav-links {
+  display: block;
+}
+
+.sub-nav-links li {
+  margin: 8px 0;
+}
+
+.sub-nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.sub-nav-links a:hover {
+  background-color: #f0f0f0;
+}
